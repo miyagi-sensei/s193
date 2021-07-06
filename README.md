@@ -7,10 +7,26 @@
 - 2 ≤ `K` ≤ 26
 
 ## Analysis of test inputs
-1. When there are "repeats", you can just replace 1 of the 2 letters to resolve the repeats
-2. When the "repeats chunk" is longer than 2 letters, you replace every other letters in the "chunk". Starting with the second letter is the optimal way.
-3. Sometimes you run out of letters. Also what if K=3 were the case in this sample? The circular nature of the menu needs to be dealt with.
-4. Needs to deal with the circular feature of the menu.
+1. When there are "repeats", you can just replace 1 of the 2 letters to resolve the repeats<br>
+```
+8 26
+abzzabzz
+```
+2. When the "repeats chunk" is longer than 2 letters, you replace every other letters in the "chunk". Starting with the second letter is the optimal way.<br>
+```
+6 2
+aaabbb
+```
+3. Sometimes you run out of letters. Also what if K=3 were the case in this sample? The circular nature of the menu needs to be dealt with.<br>
+```
+3 2
+bbb
+```
+4. Needs to deal with the circular feature of the menu.<br>
+```
+5 26
+qqweq
+```
 
 ## Solution Guide
 1. **How should you store the menu?**<br>
