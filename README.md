@@ -49,7 +49,9 @@ In this example below you either start from the "w chunk" or from the *real* beg
 qqwwwwreeq     qqwwwwreeq
   ^                     ^
 ```
+
 ---
+
 ## Pseudocode
 ```
 start from menu[0] or whatever the beginning of a chunk is
@@ -70,3 +72,9 @@ repeat N times:
 print dist, menu
 ```
 how to implement `prev(i)` and `next(i)` so that they properly deal with circularity?
+
+---
+
+## Diagrams
+![](sample1-3.jpg)
+![](sample4-5.jpg)
