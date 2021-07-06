@@ -45,10 +45,10 @@ Issues to consider:
 3. Replace every other letter with what letter?
 ```
 i <- next(start)
-dist = 0
+dist <- 0
 repeat N times:
   if menu[i] == menu[prev(i)]:
-    menu[i] = get_another_letter(menu[prev(i)], menu[next(i)]
+    menu[i] <- get_another_letter(menu[prev(i)], menu[next(i)]
     dist += 1
   i <- next(i)
 print dist, menu
