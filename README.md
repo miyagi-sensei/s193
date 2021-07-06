@@ -17,12 +17,12 @@
 `string` C++ object
 2. Don't skip subtask 2. Subtask 2 reveals a great deal.<br>
 To see the importance of subtask 2, try the following exercise:
-Given K=3, solve the following in order:
+Given `K=3`, solve the following in order:
     1. `aaaabb`
     2. `aaaabbb`
     3. `aaaabbba`
     4. `aaaabbbba`<br>
-Then try the above assuming K=2. The problem is much cleaner if you can assume K>2
+Then try the above assuming `K=2`. Can you see that the problem is much cleaner if you can assume `K>2`?
 3. Solution for subtask 2<br>
 It's either `ababababab...` or `bababababa...`. You just pick the one with shorter *distance* from the menu. 
 4. For the whole problem (subtask 4), how to deal with the circular feature?<br>
