@@ -54,14 +54,15 @@ qqwwwwreeq     qqwwwwreeq
 
 ## Pseudocode
 ```
-start from menu[0] or whatever the beginning of a chunk is
-go over the chunks and replace every other letter
+1. start from menu[0] or whatever the beginning of a chunk is
+2. go over each chunk and replace every other letters
 ```
 Issues to consider:
 1. Do you fast forward or rewind to get to the *real* beginning of a chunk?
 2. How do I implement the control flow so it goes around the string from tail to head? Make sure the loop stops after 1 full loop.
 3. Replace every other letter with what letter?
 ```
+start <- real beginning of a chunk
 i <- next(start)
 dist <- 0
 repeat N times:
