@@ -13,9 +13,9 @@
 4. Needs to deal with the circular feature of the menu.
 
 ## Solution Guide
-1. How should you store the menu?<br>
+1. **How should you store the menu?**<br>
 `string` C++ object
-2. Don't skip subtask 2. Subtask 2 reveals a great deal.<br>
+2. **Don't skip subtask 2. Subtask 2 reveals a great deal.**<br>
 To see the importance of subtask 2, try the following exercise:
 Given `K=3`, solve the following in order:
     1. `aaaabb`
@@ -23,9 +23,9 @@ Given `K=3`, solve the following in order:
     3. `aaaabbba`
     4. `aaaabbbba`<br>
 Then try the above assuming `K=2`. Can you see that the problem is much cleaner if you can assume `K>2`?
-3. Solution for subtask 2<br>
+3. **Solution for subtask 2**<br>
 It's either `ababababab...` or `bababababa...`. You just pick the one with shorter *distance* from the menu. 
-4. For the whole problem (subtask 4), how to deal with the circular feature?<br>
+4. **For the whole problem (subtask 4), how to deal with the circular feature?**<br>
 Make sure you start from the *real* beginning of a "chunk". (can rewind or fast forward)
 In this example below you either start from the "w chunk" or from the *real* beginning of the "q chunk".
 ```
