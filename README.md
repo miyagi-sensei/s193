@@ -33,7 +33,7 @@ qqweq
 `string` C++ object
 2. **Don't skip subtask 2. Subtask 2 reveals a great deal.**<br>
 To see the importance of subtask 2, try the following exercise:
-Given `K=3`, solve the following in order:
+Given `K=3`, mentally solve the following in order:
     1. `aaaabb`
     2. `aaaabbb`
     3. `aaaabbba`
