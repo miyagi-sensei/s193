@@ -7,7 +7,7 @@
 - 2 ≤ `K` ≤ 26
 
 ## Analysis of test inputs
-1. When there are "repeats", you can just replace 1 of the 2 letters to resolve the repeats<br>
+1. When there are "repeats", you can just replace 1 of the 2 letters to resolve the repeats. But how do you determine with what letters do you replace them?<br>
 ```
 8 26
 abzzabzz
@@ -17,7 +17,7 @@ abzzabzz
 6 2
 aaabbb
 ```
-3. Sometimes you run out of letters. Also what if K=3 were the case in this sample? The circular nature of the menu needs to be dealt with.<br>
+3. Sometimes you run out of letters. The circular nature of the menu contributes to the difficulty.<br>
 ```
 3 2
 bbb
@@ -69,3 +69,4 @@ repeat N times:
   i <- next(i)
 print dist, menu
 ```
+how to implement `prev(i)` and `next(i)` so that they properly deal with circularity?
