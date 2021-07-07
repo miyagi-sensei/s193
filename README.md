@@ -52,7 +52,7 @@ qqwwwwreeq     qqwwwwreeq
 
 ---
 
-## Pseudocode
+## Pseudocode for `K > 2`
 ```
 1. start from menu[0] or whatever the beginning of a chunk is
 2. go over each chunk and replace every other letters
