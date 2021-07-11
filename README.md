@@ -72,7 +72,8 @@ repeat N times:
   i <- next(i)
 print dist, menu
 ```
-how to implement `prev(i)` and `next(i)` so that they properly deal with circularity?
+- how to implement `prev(i)` and `next(i)` so that they properly deal with circularity?
+- `N = 1` is a special case that might need to be dealt with separately. 
 
 ---
 
